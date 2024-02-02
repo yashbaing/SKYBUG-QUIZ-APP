@@ -1,0 +1,38 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Quiz" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+
+        <item name="colorPrimary">@color/primary_quiz</item>
+        <item name="colorPrimaryVariant">@color/primary_quiz</item>
+
+
+    </style>
+
+    <style name="Theme.Quiz" parent="Base.Theme.Quiz" />
+
+    <style name="ProgressBar">
+        
+        <item name="colorSecondary">#3297ca</item>
+        
+    </style>
+
+    <style name="Timer">
+
+        <item name="colorSecondary">#FFC107</item>
+
+    </style>
+    
+    <style name="Dialoge">
+        
+        <item name="android:windowBackground">@drawable/empty</item>
+        <item name="windowNoTitle">true</item>
+        <item name="windowMinWidthMajor">80%</item>
+        <item name="windowActionBar">false</item>
+        
+    </style>
+
+
+
+</resources>
